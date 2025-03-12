@@ -1,6 +1,5 @@
 from functions import add, subtract, multiply
 from functions import convert_fahrenheit_to_celsius as f2c
-import pytest
 
 def test_add():
     assert add(2, 3) == 5
@@ -9,6 +8,9 @@ def test_add():
 # uncomment the following test in step 5
 def test_subtract():
     assert subtract(2, 3) == -1
+
+def test_multiply():
+    assert multiply(2,5) == 10
 
 # uncomment the following test in step 11
 # def test_convert_fahrenheit_to_celsius():
